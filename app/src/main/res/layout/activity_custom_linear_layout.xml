@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.CustomLinearLayoutActivity">
+
+    <vehicledashboard.ford.com.sampleapplicationmvvm.CustomViews.CustomLinearLayout
+        android:id="@+id/firstTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:customViewTitle="First Title"
+        app:customViewText="First Subtitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/secondTitle"/>
+
+    <vehicledashboard.ford.com.sampleapplicationmvvm.CustomViews.CustomLinearLayout
+        android:id="@+id/secondTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:customViewTitle="Second Title"
+        app:customViewText="Second Subtitle"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/firstTitle"/>
+
+</android.support.constraint.ConstraintLayout>

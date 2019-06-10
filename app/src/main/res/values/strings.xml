@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SampleApplicationMVVM</string>
+    <string name="title_activity_bound_service">BoundServiceActivity</string>
+</resources>
