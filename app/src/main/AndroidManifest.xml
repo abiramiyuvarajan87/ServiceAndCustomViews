@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.LauncherActivity"></activity>
+        <activity android:name=".Activities.LauncherActivity" />
 
         <service android:name=".Services.MyIntentService" />
         <service
@@ -21,9 +21,10 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".Activities.BoundServiceActivity">
-        </activity>
+        <activity android:name=".Activities.BoundServiceActivity" />
         <activity android:name=".Activities.CustomLinearLayoutActivity">
+        </activity>
+        <activity android:name=".Activities.RecyclerViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
