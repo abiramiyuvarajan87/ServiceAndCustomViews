@@ -22,9 +22,13 @@
             android:exported="true" />
 
         <activity android:name=".Activities.BoundServiceActivity" />
-        <activity android:name=".Activities.CustomLinearLayoutActivity">
+        <activity android:name=".Activities.CustomLinearLayoutActivity" />
+        <activity android:name=".Activities.RecyclerViewActivity"></activity>
+        <activity android:name=".Activities.ActivityLifecycleFirstActivity">
+
         </activity>
-        <activity android:name=".Activities.RecyclerViewActivity">
+        <activity android:name=".Activities.ActivityLifecycleSecondActivity" />
+        <activity android:name=".Activities.FragmentActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
